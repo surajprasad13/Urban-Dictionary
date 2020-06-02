@@ -26,7 +26,6 @@ form.addEventListener("submit", function (event) {
   };
 
   const displayData = (result) => {
-    console.log(result.list);
     const html = result.list
       .map(
         (elem) => `
